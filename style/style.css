@@ -18,7 +18,10 @@ h1, p {
     margin-top: 25px;
 }
 
-#suvey-form {
+form {
     box-sizing: border-box;
-    align-self: center;
+    background-color: darkblue;
+    display: block;
+    margin-top: 0em;
+    padding: 2.5rem;
 }
