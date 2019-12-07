@@ -2,8 +2,15 @@
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
+    color: whitesmoke;
 }
 
+body {
+    background-image: url(../pictures/woman.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+  
 .text-center {
     text-align: center;
 }
@@ -21,13 +28,34 @@ form {
     box-sizing: border-box;
     display: block;
     padding: 2.5rem;
-    background-color: darkgray;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgba(75, 80, 108, 0.5);
 }
 
 .form-control {
     width: 430px;
-    padding: 5px 5px;
+    padding: 3px 0px 3px 3px;
+
+}
+
+#dropdown {
+    width: 436px;
+}
+
+#comment {
+    width: 430px;  
+}
+
+.form-group {
+    margin-top: 15px;  
+}
+
+.submit-button {
+    width: 430px;
+    padding: 10px 3px;
+    background-color: green;
+    font-size: 18px;
+    border: none;
 }
