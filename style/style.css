@@ -6,9 +6,10 @@
 }
 
 body {
-    background-image: url(../pictures/woman.jpg);
+    background-image: url(overviewPhoto.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 } 
   
 .text-center {
@@ -22,6 +23,7 @@ h1, p {
 
 #header-container {
     margin-top: 25px;
+
 }
 
 form {
@@ -58,4 +60,15 @@ form {
     background-color: green;
     font-size: 18px;
     border: none;
+}
+
+.redirect-button {
+    width: 220px;
+    padding: 10px 3px;
+    background-color: green;
+    font-size: 12px;
+    border: none;
+    margin: auto;
+    display: block;
+    text-align: center;
 }
